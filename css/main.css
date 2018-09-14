@@ -10,6 +10,18 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+@font-face {
+    font-family: consolas-normal;
+    src: url(../fonts/consolas/CONSOLA.ttf);
+}
+
+@font-face {
+    font-family: consolas-bold;
+    src: url(../fonts/consolas/CONSOLAB.ttf);
+}
+b{
+    font-family: consolas-bold;
+}
 html {
     color: #363636;
     font-size: 1em;
@@ -131,7 +143,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body{
-    font-family: consolas,sans-serif;
+    font-family: consolas-normal,sans-serif;
 }
 
 .row.main{
