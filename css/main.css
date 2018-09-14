@@ -222,12 +222,14 @@ body{
     margin-top:40px;
 }
 .tech{
-    max-width:70%; 
+    max-width:100%; 
+    margin-top:40px;
 }
 #technologies img{
     transition: filter .5s ease-in-out;
     -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
     filter: grayscale(100%); /* FF 35+ */
+
 }
 #technologies img:hover{
     transition: filter .5s ease-in-out;
@@ -242,6 +244,7 @@ body{
     transition: transform .2s; /* Animation */
     z-index:-1;
     display: inline-block;
+    margin-top:40px;
 }
 .cert:hover{
     display: inline-block;
