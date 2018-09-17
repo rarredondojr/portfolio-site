@@ -270,6 +270,63 @@ p{
     transform: scale(2);
     z-index: 999;
 }
+
+/* ==========================================================================
+                                PROJECTS
+   ========================================================================== */
+.project{
+    width:100%;
+   
+
+}
+
+.project-info{
+    position: relative;
+    margin-top:5vh
+}
+
+.after{
+    margin-left:0.8vw;
+    margin-top:0.9%;
+    width: 96.6%;
+    height: 93.8%;
+    background-color: rgba(0, 0, 0, 0.0);
+    position: absolute;
+    color:#fff;
+    opacity: 0;
+    cursor: pointer;
+}
+.project-link{
+    color:#fff;
+}
+
+.project-link:hover{
+    transition: 1s;
+    color:#2E3D48;
+    text-decoration: none;
+}
+
+.project-title{
+    margin-top:15%;
+    font-size:3vw;
+}
+.project-description{
+    position: relative;
+    top: 15%;
+    transform: translateY(-50%);
+    padding:20px;
+    font-size:1.5vw;
+}
+.tech-used{
+    color:#8baf67
+}
+
+.after:hover{
+    opacity: 0.8;
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 1);
+}
+
 /* ==========================================================================
                                     ABOUT
    ========================================================================== */
