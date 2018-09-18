@@ -20,21 +20,10 @@
     src: url(../fonts/consolas/CONSOLAB.ttf);
 }
 
-#typing h1{
-
-        overflow: hidden; /* Ensures the content is not revealed until the animation */
+.header span{
         border-right: .15em solid orange; /* The typwriter cursor */
-        white-space: nowrap; /* Keeps the content on a single line */
-        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-        letter-spacing: .15em; /* Adjust as needed */
-        animation: 
-          typing 4.0s steps(20, end),
-          blink-caret .75s step-end infinite;
+        animation: blink-caret .75s step-end infinite;
 }
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
   
   /* The typewriter cursor effect */
   @keyframes blink-caret {
@@ -45,17 +34,15 @@
 b{
     font-family: consolas-bold;
 }
-#content {
+html {
     color: #363636;
     font-size: 1em;
     line-height: 1.4;
-    opacity:0; 
-    -webkit-animation: fadein 2s forwards; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 2s forwards; /* Firefox < 16 */
-     -ms-animation: fadein 2s forwards; /* Internet Explorer */
-      -o-animation: fadein 2s forwards; /* Opera < 12.1 */
-         animation: fadein 2s forwards;
-    animation-delay: 4.3s;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+     -ms-animation: fadein 2s; /* Internet Explorer */
+      -o-animation: fadein 2s; /* Opera < 12.1 */
+         animation: fadein 2s;
 }
 
 @keyframes fadein {
